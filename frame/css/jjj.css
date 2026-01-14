@@ -1,0 +1,10 @@
+/* Extracted small head styles from jjj.html */
+body {
+  transition: opacity ease-in 0.2s;
+}
+body[unresolved] {
+  opacity: 0;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}

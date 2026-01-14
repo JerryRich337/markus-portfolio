@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/window.gif">
+    <link rel="stylesheet" href="styles.css">
+    <title>grace's portfolio</title>
+  </head>
+  <body>
+      <header id="topbar">
+        <h1 id="nameplate"><a href="index.html">grace joseph</a></h1>
+        <nav id="navbar">
+          <ul>
+            <li><h2><a href="index.html#work-section">work</a></h2></li>
+            <li><h2><a href="index.html#skills-section">skills</a></h2></li>
+            <li><h2><a href="index.html#about-section">about</a></h2></li>
+            <li><h2><a href="assets/markus church portfolio resume 2025.pdf" download="resume" target="_blank">resume</a></h2></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="work-page-content">
+        <div data-scroll class="work-page-header">
+            <h1 class="work-page-header-title">WorkBoard</h1>
+            <img class="up-next-image" src="assets/workboard/workboard-up-next.png" alt="">
+            <h3 class="up-next-role">Internship / Accessibility <br>Software Engineering + Design</h3>
+        </div>
+        <div data-scroll class="work-page-info-row skills-grey-boxes">
+          <h4><strong>DURATION: </strong>June 2021 - Present</h4>
+          <h4><strong>COLLABORATOR: </strong>Karan Singh</h4>
+        </div>
+        <div data-scroll class="work-page-overview">
+          <h4 class="work-page-overview-content">
+            This past summer I interned at WorkBoard, 
+            an enterprise SaaS company delivering Objectives & Key Results (OKR) 
+            software and expertise. As a software engineering intern on the Accessibility team,
+             I worked on remediating the WorkBoard help center to make it more accessible, 
+             <span class="underline workboard-underline">establishing WorkBoard’s design system on ZeroHeight</span>, and developing an 
+             emoji picker component from scratch using React for WorkBoard’s platform. 
+          </h4>
+        </div>
+        <div class="work-page-skills-main">
+          <div data-scroll class="work-page-skills">
+            <h2>Methods</h2>
+            <div class="skills-grey-boxes work-page-skills-boxes">
+              <h4>Wireframing</h4>
+              <h4>Prototyping</h4>
+              <h4>Accessibility Remediation</h4>
+            </div>
+          </div>
+          <div data-scroll class="work-page-skills">
+            <h2>Tools</h2>
+            <div class="skills-grey-boxes work-page-skills-boxes">
+              <h4>Figma</h4>
+              <h4>React</h4>
+              <h4>ZeroHeight</h4>
+              <h4>StoryBook</h4>
+              <h4>Github</h4>
+              <h4>Slack</h4>
+            </div>
+          </div>
+        </div>
+        <div class="internship-intro">
+          <img class="internship-logo" src="assets/workboard/workboard-logo.png" alt="">
+          <h4 class="section-text workboard-right right-text">
+            <strong>Did you know that only 3% of the internet is accessible? 
+              Or that statistically speaking, every person will experience 
+              some form of a disability for at least 8 years in their life?</strong>
+              With the tech sector projected to hire 3x as many employees with 
+              disabilities in the next five years, it’s more important than 
+              ever to make software accessible to everyone. WorkBoard, a 
+              market leader in OKR enterprise software, has made strides on 
+              this front -- developing rigorous processes focused on making 
+              the platform accessible. My internship has specifically allowed 
+              me to become a part of this movement, enabling me to educate myself 
+              on accessibility software engineering and providing me the opportunity 
+              to help educate the rest of the company on the significance of digital inclusivity. 
+          </h4>
+        </div>
+        <div>
+          <h2 class="work-page-section-title underline workboard-underline">Zendesk Remediation</h2>
+          <h4 class="section-text workboard-right right-text">
+            We began by spending our first week doing Accessibility training in preparation 
+            for our first project working on making our Help Center articles on Zendesk more 
+            screen reader accessible. Screen Readers rely on the use of semantically correct 
+            HTML and descriptive links among many other best practices in order to make content 
+            accessible, the WYSIWYG editor that Zendesk and many other applications use does not 
+            take this into consideration​.  So we determined a 
+            list of priority articles and then dove into the HTML associated with each article 
+            to remediate. We looked for things like images with missing alt text, lists that 
+            are not using the native list tag, added ARIA-labels, made the links descriptive, 
+            and made changes to the UI to address color contrast issues​.
+          </h4>
+        </div>
+        <div>
+          <h2 class="work-page-section-title underline workboard-underline">ZeroHeight Design System</h2>
+          <h4 class="section-text workboard-right right-text">
+            Zeroheight is a collaborative platform that allows companies to 
+            prepare and maintain design system documentation for a component library. 
+            A Design system is essential in digital product design and an ideal design 
+            system consists of reusable components that follow clear style guidelines 
+            and ZeroHeight is how we document the nuances of each component and these 
+            style guidelines. I documented each of the most essential components in ZeroHeight, such that 
+            each has their own page with a style guide showcasing the different states of the component, a 
+            usage guide that goes through the do’s and don’t for the component as 
+            well as its variants, sizing, color, and alignment standards, an 
+            accessibility page that details how the component’s design and 
+            intended implementation meet the essential accessibility standards, 
+            and a live demo where you can interact with the component once it is 
+            implemented in WorkBoard's component library. Having the design system organized 
+            in this way helps build transparency in the design process, 
+            especially regarding accessibility, and will also allow for 
+            developers and quality assurance engineers to better understand the intended design of each component.
+          </h4>
+        </div>
+        <div>
+          <h2 class="work-page-section-title underline workboard-underline">Emoji Picker</h2>
+          <h4 class="section-text workboard-right right-text">
+            Finally, my intern partner and I working on an Emoji Picker component for the component library. 
+            We began by looking at Open Source solutions and scoped out the necessary attributes 
+            for an ideal emoji picker such as a skin tone picker for inclusivity and an emoji infobar for 
+            accessibility. Since the Emoji Picker is a very complex compositional component, 
+            we wanted to employ the ideologies behind atomic design, looking through the component 
+            library to find the building blocks for the Emoji Picker component. So 
+            throughout our iterative design process, we took these building blocks into 
+            consideration, applying the existing design guidelines for the popper and 
+            search component into our design for an ideal implementation. After meeting with the designers, 
+            developers, and PMs to discuss the design and implementation details, we began designing 
+            the picker on figma and created an interactive prototype as you can see below​. We are 
+            currently working on implementing this in React. 
+          </h4>
+        </div>
+        </main>
+      <footer data-scroll class="up-next-section">
+        <!-- <a class="up-next" href="klapr.html">
+            <div class="up-next-label-gradient klapr-gradient">
+              <div class="up-next-label">
+                <h2 class="up-next-text">up next</h2>
+              </div>
+            </div>
+            <div class="up-next-card-gradient klapr-gradient">
+              <div class="up-next-card">
+                  <h1 class="up-next-title">Klapr</h1>
+                  <img class="up-next-image" src="assets/klapr/klapr-up-next.png" alt="">
+                  <h3 class="up-next-role">Internship / UI/UX Design</h3>
+              </div>
+            </div>
+        </a> -->
+        <a class="up-next" href="roots.html">
+          <div class="up-next-label-gradient roots-gradient">
+            <div class="up-next-label">
+              <h2 class="up-next-text">up next</h2>
+            </div>
+          </div>
+          <div class="up-next-card-gradient roots-gradient">
+            <div class="up-next-card">
+                <h1 class="up-next-title">Roots</h1>
+                <img class="up-next-image" src="assets/roots/roots-up-next.png" alt="">
+                <h3 class="up-next-role">Ideation / UI/UX Design + Research</h3>
+            </div>
+          </div>
+      </a>
+      </footer>
+  </body>
+    <script src="http://cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://unpkg.com/splitting@1.0.0/dist/splitting.js"></script>
+    <script src="https://unpkg.com/scroll-out@2.2.3/dist/scroll-out.min.js"></script>
+    <script src="app.js"></script>
+</html>
